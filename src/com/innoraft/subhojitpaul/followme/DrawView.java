@@ -109,7 +109,6 @@ public class DrawView extends SurfaceView implements SurfaceHolder.Callback {
 			yPosition = (int) event.getY();
 			break;
 		case MotionEvent.ACTION_UP:
-			objectFingerMove = false;
 			break;
 		default:
 			return false;
